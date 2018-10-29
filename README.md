@@ -12,7 +12,7 @@ To answer the questions, following 3 data source are used as input.
 The latter is saved as [borough_zip.txt](borough_zip.txt) and available in repository.
 
 ## Data Analysis
-Jupyter Notebook [service_request.ipynb](service_request.ipynb) used for this data analysis and consists of following main steps.
+Jupyter Notebook [311_service_request.ipynb](311_service_request.ipynb) used for this data analysis and consists of following main steps.
 1. Data ingestion into pandas dataframe for the above-mentioned data sources (cells 2, 7, 12 respectively)
 2. Preprocessing
     1. Exclude service request data columns that are not required for this analysis (cell 2)
