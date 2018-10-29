@@ -18,7 +18,7 @@ Jupyter Notebook [service_request.ipynb](service_request.ipynb) used for this da
     1. Exclude service request data columns that are not required for this analysis (cell 2)
     2. Extract year from Created Date column (cell 4)
     3. Validate extracted years (cell 6)
-    4. Lookup zip codes' populations and boroughs (cells 9, 13)
+    4. Lookup zip codes' population and boroughs (cells 9, 13)
     5. Validate zip code and population (cell 8)
     6. Create subset of service request dataframe for year 2017 (cell 15)
     7. Exclude missing population and validate (cells 9, 11)
@@ -26,6 +26,12 @@ Jupyter Notebook [service_request.ipynb](service_request.ipynb) used for this da
     1. Cell 16, question 1
     2. Cell 22, question 2
     3. Cells 23, 24 and 25, question 3
+
+
+## Complaint-index
+To address question 3, complaint-index is calculated by deviding normalized complaint count by normalized population for each borough. Normalized population and complaint count are in turn calculated by deviding each borough's respective value by total sum. 
+
+So complaint-index 1 indicates that ratio of borough's complaint count to overall complaint count equals that of its population. 
 
 ## Assumptions
 Only one assumption was made prior to this data analysis. The main concern is to have valid input data 
